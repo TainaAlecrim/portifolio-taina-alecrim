@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Ilustração de uma mesa de desenvolvimento com decoração de fantasia e um gato">
+  <defs>
+    <linearGradient id="fade-x" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".11" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".93" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade-y" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".06" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".78" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".92" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="horizontal-fade" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox" style="mask-type:alpha">
+      <rect width="1" height="1" fill="url(#fade-x)"/>
+    </mask>
+    <mask id="vertical-fade" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox" style="mask-type:alpha">
+      <rect width="1" height="1" fill="url(#fade-y)"/>
+    </mask>
+  </defs>
+  <g mask="url(#vertical-fade)">
+    <g mask="url(#horizontal-fade)">
+      <image href="/portifolio-taina-alecrim/assets/hero-workspace.webp" x="0" y="0" width="1600" height="900" preserveAspectRatio="none"/>
+    </g>
+  </g>
+</svg>
