@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+<title id="title">Espaço de trabalho de uma desenvolvedora</title><desc id="desc">Uma mesa aconchegante com computador exibindo código, livros, planta, gato dormindo e detalhes de fantasia.</desc>
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#38213c"/><stop offset="1" stop-color="#211328"/></linearGradient>
+ <linearGradient id="desk" x2="0" y2="1"><stop stop-color="#8a536e"/><stop offset="1" stop-color="#3c233d"/></linearGradient>
+ <linearGradient id="screen" x2="1" y2="1"><stop stop-color="#251d3b"/><stop offset="1" stop-color="#121923"/></linearGradient>
+ <linearGradient id="glow" x2="0" y2="1"><stop stop-color="#f2b974" stop-opacity=".62"/><stop offset="1" stop-color="#f2b974" stop-opacity="0"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#ca7ebe" stop-opacity=".35"/><stop offset="1" stop-color="#ca7ebe" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<ellipse cx="480" cy="440" rx="390" ry="75" fill="#090710" opacity=".55" filter="url(#blur)"/>
+<ellipse cx="490" cy="275" rx="350" ry="240" fill="url(#aura)"/>
+<!-- back wall and shelves -->
+<path d="M105 65Q105 42 130 42H770Q795 42 795 67V410H105Z" fill="url(#wall)" stroke="#805477" stroke-opacity=".48" stroke-width="2"/>
+<path d="M130 160H770M130 280H770" stroke="#b477a3" stroke-opacity=".27" stroke-width="8"/>
+<path d="M145 160V70H755V160M145 280V170H755V280" fill="none" stroke="#8f6389" stroke-opacity=".24" stroke-width="3"/>
+<!-- window -->
+<rect x="160" y="70" width="190" height="82" rx="8" fill="#1b2337" stroke="#946b93" stroke-width="3"/>
+<path d="M255 72V150M162 112H348" stroke="#916a94" stroke-width="3" opacity=".6"/>
+<circle cx="300" cy="92" r="21" fill="#e6b6d8" opacity=".86"/>
+<circle cx="309" cy="84" r="20" fill="#293047"/>
+<g fill="#f7d8ec" opacity=".8"><circle cx="188" cy="88" r="2"/><circle cx="220" cy="130" r="2"/><circle cx="326" cy="130" r="1.7"/><path d="M198 105l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/></g>
+<!-- books on shelf -->
+<g>
+ <rect x="395" y="101" width="24" height="58" rx="3" fill="#9b5f7e"/><rect x="423" y="88" width="22" height="71" rx="3" fill="#4e6b68"/><rect x="450" y="109" width="25" height="50" rx="3" fill="#b47b56"/><rect x="480" y="94" width="20" height="65" rx="3" fill="#67517f"/>
+ <path d="M401 117h12m-12 7h12m17-19h12m-12 8h12m14 11h15m-15 7h15m-10-23h9" stroke="#f1d3cb" stroke-opacity=".65" stroke-width="2"/>
+ <rect x="664" y="92" width="70" height="66" rx="7" fill="#281a32" stroke="#9a6a97"/><path d="M679 143l17-31 16 31M687 128h19" fill="none" stroke="#d99acb" stroke-width="3" stroke-linecap="round"/>
+</g>
+<!-- soft lantern light -->
+<path d="M585 150Q552 230 585 310Q618 230 585 150" fill="url(#glow)" opacity=".7"/>
+<g transform="translate(550 91)"><path d="M18 12h35l-4 11H22z" fill="#7c526d"/><path d="M22 23h27l9 47H13z" fill="#3a243f" stroke="#d49a7d" stroke-width="2"/><path d="M30 30h11l6 30H24z" fill="#edbb80" opacity=".9"/><path d="M17 70h34" stroke="#d49a7d" stroke-width="4" stroke-linecap="round"/><path d="M36 5v7" stroke="#d49a7d" stroke-width="3"/></g>
+<!-- monitor stand and display -->
+<ellipse cx="470" cy="421" rx="160" ry="20" fill="#0a0810" opacity=".55" filter="url(#shadow)"/>
+<rect x="305" y="184" width="330" height="215" rx="15" fill="#110e19" stroke="#d28ac0" stroke-width="3"/>
+<rect x="317" y="196" width="306" height="191" rx="8" fill="url(#screen)"/>
+<path d="M444 400h52v26h-52z" fill="#76506e"/><path d="M419 427h102l18 9H401z" fill="#b27b9b"/>
+<circle cx="470" cy="392" r="3" fill="#d990c5"/>
+<g fill="#e6d4eb" font-family="monospace" font-size="14" opacity=".86">
+ <text x="339" y="224" fill="#df92ca">// building something</text>
+ <text x="339" y="251"><tspan fill="#d59bd6">const</tspan> <tspan fill="#a9d5cc">portfolio</tspan> = {</text>
+ <text x="357" y="276"><tspan fill="#e8b77e">name</tspan>: "Tainá",</text>
+ <text x="357" y="301"><tspan fill="#e8b77e">focus</tspan>: "backend",</text>
+ <text x="357" y="326"><tspan fill="#e8b77e">dreams</tspan>: <tspan fill="#b0c6e9">true</tspan></text>
+ <text x="339" y="351">};</text>
+</g>
+<path d="M590 214v143" stroke="#74517a" opacity=".35" stroke-width="2"/>
+<g fill="#c78ac3"><circle cx="597" cy="234" r="4"/><circle cx="597" cy="253" r="4"/><circle cx="597" cy="272" r="4"/></g>
+<!-- desk -->
+<path d="M95 432Q450 402 812 432L790 465Q456 445 112 465Z" fill="url(#desk)" stroke="#b47a9f" stroke-width="2"/>
+<path d="M132 464l-13 82h25l20-81m600 0 20 82h-25l-20-81" fill="#41253f" stroke="#8f5b83" stroke-width="3"/>
+<path d="M94 432Q445 411 812 432" fill="none" stroke="#e1a8c9" stroke-width="3" opacity=".55"/>
+<!-- keyboard and mug -->
+<path d="M362 440h185l-15 22H377z" fill="#19121f" stroke="#ad77a0" stroke-width="2"/>
+<g fill="#d29ac3" opacity=".68"><path d="M384 447h14v5h-14zM403 447h14v5h-14zM422 447h14v5h-14zM441 447h14v5h-14zM460 447h14v5h-14zM479 447h14v5h-14zM498 447h14v5h-14z"/></g>
+<path d="M584 409h49l-4 39h-41z" fill="#b36e91" stroke="#e7aacd" stroke-width="2"/><path d="M632 418q26-3 17 18q-5 10-18 5" fill="none" stroke="#e7aacd" stroke-width="4"/><path d="M596 401q-10-15 2-22m13 22q-7-17 4-25" fill="none" stroke="#d8b6d3" stroke-width="3" stroke-linecap="round"/>
+<!-- books stack -->
+<g transform="translate(195 393)"><path d="M0 25h78l-5 17H5z" fill="#536b69"/><path d="M-3 7h82l-3 17H0z" fill="#a76e8e"/><path d="M3 -11h72l4 17H-1z" fill="#d19b73"/><path d="M12 -5h52M10 13h59M12 31h52" stroke="#f2dfd4" stroke-opacity=".55" stroke-width="2"/></g>
+<!-- plant -->
+<g transform="translate(710 336)"><path d="M-25 64h58l-7 44h-43z" fill="#9b5c82" stroke="#df9dca" stroke-width="2"/><path d="M4 66V4m0 31q-35-28-33-52 31 0 38 31m-5 4q31-38 51-27-6 31-51 38m-1-2q-29 8-40-12 16-20 41 1" fill="none" stroke="#82a68b" stroke-width="7" stroke-linecap="round"/><path d="M3 31q-21-37-11-54 25 14 11 54" fill="#80a28a"/><path d="M6 45q15-37 34-34 0 25-34 34" fill="#6c947f"/></g>
+<!-- sleeping cat -->
+<g transform="translate(686 393)"><ellipse cx="0" cy="10" rx="44" ry="24" fill="#d7b4a9"/><path d="M-35-2l-8-23 24 9m25 6 14-20 8 27" fill="#d7b4a9" stroke="#d7b4a9" stroke-width="5" stroke-linejoin="round"/><path d="M-15 9q8 8 16 0m12 0q8 8 16 0" fill="none" stroke="#6c455d" stroke-width="3" stroke-linecap="round"/><path d="M-5 15q6 5 12 0" stroke="#8d5c6d" stroke-width="2" fill="none"/><path d="M-40 5q-21 2-25-16" fill="none" stroke="#d7b4a9" stroke-width="7" stroke-linecap="round"/></g>
+<!-- tiny fantasy sword decor -->
+<g transform="translate(235 205) rotate(-35)"><path d="M0 0l8 100-8 19-8-19z" fill="#c9d2d9"/><path d="M-15 97h30v8h-30z" fill="#ba83a9"/><path d="M0 105v23" stroke="#d5a16d" stroke-width="7" stroke-linecap="round"/><path d="M-6 12h12" stroke="#fff" stroke-opacity=".7" stroke-width="2"/></g>
+<!-- floating sparkles -->
+<g fill="#efc0de" opacity=".9"><path d="M772 202l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/><circle cx="125" cy="225" r="3"/><circle cx="270" cy="178" r="2"/><circle cx="744" cy="280" r="3"/><path d="M160 310l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/></g>
+</svg>
