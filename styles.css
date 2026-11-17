@@ -90,3 +90,34 @@
     mask-image:radial-gradient(ellipse 96% 92% at 52% 48%,#000 73%,rgba(0,0,0,.86) 83%,rgba(0,0,0,.4) 94%,transparent 100%);
   }
 }
+
+
+/* Final hero artwork integration: eliminate every panel-like edge */
+.hero-art,
+.hero-art::before,
+.hero-art::after{
+  background:transparent!important;
+  box-shadow:none!important;
+  border:0!important;
+}
+.hero-art::before,
+.hero-art::after{content:none!important;display:none!important}
+.hero-art{isolation:auto!important;overflow:visible!important}
+.hero-art img{
+  display:block;
+  width:118%;
+  max-width:none;
+  height:auto;
+  margin-left:-1%;
+  object-fit:contain;
+  mix-blend-mode:normal!important;
+  -webkit-mask-image:none!important;
+  mask-image:none!important;
+  filter:none;
+}
+@media(max-width:1050px){
+  .hero-art img{width:120%;margin-left:-2%}
+}
+@media(max-width:760px){
+  .hero-art img{width:108%;margin-left:-4%}
+}
